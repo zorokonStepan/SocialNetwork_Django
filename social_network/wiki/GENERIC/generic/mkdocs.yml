@@ -1,0 +1,47 @@
+site_name: social_network
+
+site_dir: 'wiki/GENERIC/generic/build'
+
+#site_url: 'https://example.com'
+nav:
+
+    - Index: index.md
+    - Settings: settings.md
+    - Dev: dev.md
+    - pip install: pip.md
+    - '': ''
+    - '': ''
+    - BlogModels: blog/models.md
+    - BlogTemplates: blog/templates.md
+    - BlogUrls: blog/urls.md
+    - BlogViews: blog/views.md
+
+# установить библиотеки:
+#theme: readthedocs
+theme:
+    name: material
+
+# любой порт отличный от порта для запуска локального сервера Django
+dev_addr:
+    127.0.0.1:8200
+
+
+# расширения
+markdown_extensions:
+
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.snippets
+#    - toc:
+#          permalink: True
+
+# сворачивание страниц
+collapse_single_pages: true
+
+plugins:
+    - search
+    - awesome-pages
+
+site_author:
+    Stepan Kolodkin
