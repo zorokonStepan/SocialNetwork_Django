@@ -1,8 +1,12 @@
+## Настройка django-crispy-forms
+
+[https://docs.djangoproject.com/en/4.1/](https://docs.djangoproject.com/en/4.1/)
+
     pip install django
 
 ## Настройка django-crispy-forms
 
-[https://django-crispy-forms.readthedo..](https://django-crispy-forms.readthedo..)
+[https://django-crispy-forms.readthedocs.io/en/latest/](https://django-crispy-forms.readthedocs.io/en/latest/)
 
     pip install django-crispy-forms
 
@@ -14,23 +18,25 @@
 
 ## Настройка pillow 
 
+[https://pypi.org/project/Pillow/](https://pypi.org/project/Pillow/)
+
     pip install pillow
 
 ## Настройка django-ckeditor 
 
-[https://pypi.org/project/django-ckedi...](https://pypi.org/project/django-ckedi...)
+[https://pypi.org/project/django-ckeditor/](https://pypi.org/project/django-ckeditor/)
 
     pip install django-ckeditor
 
 ## Настройка channels
 
-[https://channels.readthedocs.io/en/st..](https://channels.readthedocs.io/en/st..)
+[https://channels.readthedocs.io/en/stable/](https://channels.readthedocs.io/en/stable/)
 
     python -m pip install -U channels
 
 ## Настройка django-allauth
 
-[https://django-allauth.readthedocs.io...](https://django-allauth.readthedocs.io...)
+[https://django-allauth.readthedocs.io/en/latest/](https://django-allauth.readthedocs.io/en/latest/)
     .
     pip install django-allauth
 
@@ -58,7 +64,7 @@ load_dotenv(dotenv_path=env_path)
 
 ## Настройка django-braces
 
-[https://django-braces.readthedocs.io/...](https://django-braces.readthedocs.io/...)
+[https://django-braces.readthedocs.io/en/latest/](https://django-braces.readthedocs.io/en/latest/)
 
     pip install django-braces
     
